@@ -26,7 +26,7 @@ export const siteConfig = {
     "I design and build fast, useful digital products with careful attention to detail.",
   bio: "I’m a software engineer who enjoys solving practical problems and making products feel clear and easy to use. I care about solid engineering, honest collaboration and finishing the details properly.",
   email: "hello@example.com",
-  siteUrl: "https://example.com",
+  siteUrl: "https://ajay-portfolio-alpha-ten.vercel.app",
   availability: "Available for select projects",
   portrait: {
     src: "/images/portrait-placeholder.webp",

@@ -3,9 +3,9 @@
 A restrained, open-source portfolio starter for developers who care about
 typography, performance and interaction detail.
 
-**[Live demo](https://example.com)** · Next.js App Router · TypeScript · MIT
+**[Live demo](https://ajay-portfolio-alpha-ten.vercel.app/)** · Next.js App Router · TypeScript · MIT
 
-![Portfolio homepage](public/images/project-01.webp)
+![Portfolio homepage preview](public/images/portfolio-preview.webp)
 
 ## Features
 
