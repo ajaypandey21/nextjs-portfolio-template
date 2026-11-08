@@ -9,7 +9,7 @@ micro-interactions and zero UI dependencies. Edit one config file and deploy.
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
 **[Live demo](https://ajay-portfolio-alpha-ten.vercel.app/)** ·
-[Use this template](https://github.com/ajaypandey21/ajay-portfolio/generate) ·
+[Use this template](https://github.com/ajaypandey21/nextjs-portfolio-template/generate) ·
 [Deploy to Vercel](#deploy)
 
 ![Portfolio homepage preview](public/images/portfolio-preview.webp)
@@ -41,7 +41,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fajaypandey21%2Fajay-portfolio&project-name=my-portfolio&repository-name=my-portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fajaypandey21%2Fnextjs-portfolio-template&project-name=my-portfolio&repository-name=my-portfolio)
 
 On Vercel the site URL used for metadata, the sitemap and robots is detected
 automatically. On other hosts, set `NEXT_PUBLIC_SITE_URL` to your domain.
