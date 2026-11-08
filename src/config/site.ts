@@ -18,19 +18,24 @@ export type Testimonial = {
 };
 
 export const siteConfig = {
-  name: "Ajay",
-  fullName: "Ajay Pandey",
+  name: "Alex",
+  fullName: "Alex Morgan",
   role: "Software Engineer",
-  location: "India",
+  location: "Remote",
   description:
     "I design and build fast, useful digital products with careful attention to detail.",
   bio: "I’m a software engineer who enjoys solving practical problems and making products feel clear and easy to use. I care about solid engineering, honest collaboration and finishing the details properly.",
   email: "hello@example.com",
-  siteUrl: "https://ajay-portfolio-alpha-ten.vercel.app",
+  // Set NEXT_PUBLIC_SITE_URL to your domain. On Vercel the production URL is detected automatically.
+  siteUrl:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "http://localhost:3000"),
   availability: "Available for select projects",
   portrait: {
     src: "/images/portrait-placeholder.webp",
-    alt: "Portrait of Ajay",
+    alt: "Portrait of Alex Morgan",
   },
   social: {
     github: "https://github.com/",
@@ -86,7 +91,7 @@ export const siteConfig = {
   testimonials: [
     {
       quote:
-        "Ajay brought clarity to a difficult product. He asked the right questions, communicated well and cared about every detail through launch.",
+        "Alex brought clarity to a difficult product. He asked the right questions, communicated well and cared about every detail through launch.",
       name: "Client Name",
       role: "Product Lead, Company",
     },
@@ -98,7 +103,7 @@ export const siteConfig = {
     },
   ] satisfies Testimonial[],
   seo: {
-    title: "Ajay | Software Engineer",
+    title: "Alex Morgan | Software Engineer",
     description:
       "Software engineer building fast and reliable digital products.",
     keywords: [

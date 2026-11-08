@@ -1,9 +1,16 @@
-# Still: Editorial Developer Portfolio
+# Still: Minimal Next.js Developer Portfolio Template
 
-A restrained, open-source portfolio starter for developers who care about
-typography, performance and interaction detail.
+A free, open-source **developer portfolio template** built with **Next.js 15,
+React 19 and TypeScript**. Editorial typography, dark mode, smooth
+micro-interactions and zero UI dependencies. Edit one config file and deploy.
 
-**[Live demo](https://ajay-portfolio-alpha-ten.vercel.app/)** · Next.js App Router · TypeScript · MIT
+[![MIT License](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
+[![Next.js 15](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+
+**[Live demo](https://ajay-portfolio-alpha-ten.vercel.app/)** ·
+[Use this template](https://github.com/ajaypandey21/ajay-portfolio/generate) ·
+[Deploy to Vercel](#deploy)
 
 ![Portfolio homepage preview](public/images/portfolio-preview.webp)
 
@@ -31,6 +38,13 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+## Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fajaypandey21%2Fajay-portfolio&project-name=my-portfolio&repository-name=my-portfolio)
+
+On Vercel the site URL used for metadata, the sitemap and robots is detected
+automatically. On other hosts, set `NEXT_PUBLIC_SITE_URL` to your domain.
 
 ## Customize
 
@@ -88,3 +102,6 @@ public/
 ## License
 
 [MIT](LICENSE). Use it, adapt it and make it yours.
+
+If this template helped you, a ⭐ on the repo helps other developers find it.
+Built a portfolio with it? Open an issue and share the link.

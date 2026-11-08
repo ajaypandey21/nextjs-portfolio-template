@@ -1,7 +1,26 @@
 {
-  "name": "editorial-developer-portfolio",
+  "name": "nextjs-developer-portfolio-template",
   "version": "1.0.0",
   "private": true,
+  "description": "Minimal, editorial developer portfolio template built with Next.js 15, React 19 and TypeScript. Dark mode, accessible, zero UI dependencies.",
+  "keywords": [
+    "portfolio",
+    "portfolio-template",
+    "developer-portfolio",
+    "nextjs",
+    "nextjs-template",
+    "react",
+    "typescript",
+    "personal-website",
+    "dark-mode",
+    "minimal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajaypandey21/ajay-portfolio.git"
+  },
+  "homepage": "https://ajay-portfolio-alpha-ten.vercel.app",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
